@@ -21,7 +21,7 @@ spec:
         app.kubernetes.io/name: spring-boot-app
     spec:
       containers:
-      - image: spoorthipm/ultimate-cicd:26   # <-- update to your latest build number
+      - image: spoorthipm/ultimate-cicd:13   # <-- update to your latest build number
         imagePullPolicy: Always
         name: spring-boot-app
         ports:
